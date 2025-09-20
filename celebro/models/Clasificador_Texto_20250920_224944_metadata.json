@@ -1,0 +1,7 @@
+{
+  "model_id": "Clasificador_Texto_20250920_224944",
+  "model_name": "Clasificador_Texto",
+  "model_type": "text_classification",
+  "created_at": "2025-09-20T22:49:44.713137",
+  "file_path": "celebro/models\\Clasificador_Texto_20250920_224944.h5"
+}

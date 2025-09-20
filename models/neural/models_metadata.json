@@ -1,0 +1,32 @@
+{
+  "models": {
+    "62d2dd68fc9a": {
+      "model_id": "62d2dd68fc9a",
+      "name": "Modelo de Prueba",
+      "model_type": "classification",
+      "status": "trained",
+      "created_at": "2025-09-20T22:38:54.256589",
+      "last_updated": "2025-09-20T22:38:54.258582",
+      "version": "1.0.0",
+      "description": "Modelo de prueba para demostraci\u00f3n",
+      "input_shape": [
+        10,
+        5
+      ],
+      "output_shape": [
+        1
+      ],
+      "parameters": {
+        "learning_rate": 0.01,
+        "epochs": 100
+      },
+      "performance_metrics": {
+        "accuracy": 0.95,
+        "loss": 0.05
+      },
+      "file_path": "models/neural\\62d2dd68fc9a.pkl",
+      "file_size": 553,
+      "checksum": "5e83c9f225a471b03e0c60e16b7dd4580cd52649b70fe35fa64cd9d146df2a06"
+    }
+  }
+}

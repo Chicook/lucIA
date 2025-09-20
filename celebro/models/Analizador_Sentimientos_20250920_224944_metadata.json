@@ -1,0 +1,7 @@
+{
+  "model_id": "Analizador_Sentimientos_20250920_224944",
+  "model_name": "Analizador_Sentimientos",
+  "model_type": "sentiment_analysis",
+  "created_at": "2025-09-20T22:49:44.574054",
+  "file_path": "celebro/models\\Analizador_Sentimientos_20250920_224944.h5"
+}

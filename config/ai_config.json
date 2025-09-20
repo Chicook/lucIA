@@ -1,0 +1,144 @@
+{
+  "ai_name": "LucIA",
+  "version": "0.6.0",
+  "max_memory_size": 1000000,
+  "learning_rate": 0.01,
+  "modules": {
+    "memory": {
+      "enabled": true,
+      "priority": 1,
+      "description": "Sistema de memoria persistente"
+    },
+    "learning": {
+      "enabled": true,
+      "priority": 2,
+      "description": "Motor de aprendizaje y adaptaci\u00f3n"
+    },
+    "communication": {
+      "enabled": true,
+      "priority": 3,
+      "description": "Sistema de comunicaci\u00f3n inter-IA"
+    },
+    "training": {
+      "enabled": true,
+      "priority": 4,
+      "description": "Interfaz de entrenamiento para IAs externas"
+    },
+    "reasoning": {
+      "enabled": true,
+      "priority": 5,
+      "description": "Sistema de razonamiento l\u00f3gico"
+    },
+    "perception": {
+      "enabled": true,
+      "priority": 6,
+      "description": "Sistema de percepci\u00f3n multimodal"
+    },
+    "action": {
+      "enabled": true,
+      "priority": 7,
+      "description": "Sistema de ejecuci\u00f3n de acciones"
+    },
+    "evaluation": {
+      "enabled": true,
+      "priority": 8,
+      "description": "Sistema de evaluaci\u00f3n de rendimiento"
+    },
+    "optimization": {
+      "enabled": true,
+      "priority": 9,
+      "description": "Sistema de optimizaci\u00f3n autom\u00e1tica"
+    },
+    "security": {
+      "enabled": true,
+      "priority": 10,
+      "description": "Sistema de seguridad y autenticaci\u00f3n"
+    },
+    "monitoring": {
+      "enabled": true,
+      "priority": 11,
+      "description": "Sistema de monitoreo en tiempo real"
+    },
+    "integration": {
+      "enabled": true,
+      "priority": 12,
+      "description": "Sistema de integraci\u00f3n b\u00e1sica"
+    },
+    "advanced_integration": {
+      "enabled": true,
+      "priority": 13,
+      "description": "Integraci\u00f3n avanzada de @celebro, @red_neuronal y @conocimientos"
+    },
+    "infrastructure": {
+      "enabled": true,
+      "priority": 14,
+      "description": "Sistema integrador de infraestructura (cach\u00e9, archivos temporales, modelos, datos)"
+    }
+  },
+  "training": {
+    "auto_learning": true,
+    "external_ai_support": true,
+    "model_update_frequency": 3600,
+    "security_topics_enabled": true,
+    "neural_networks_enabled": true,
+    "celebro_analysis_enabled": true
+  },
+  "description": "Motor de Inteligencia Artificial Modular con Sistemas Avanzados Integrados",
+  "celebro": {
+    "enabled": true,
+    "description": "Sistema de an\u00e1lisis e interpretaci\u00f3n de respuestas",
+    "max_responses_stored": 10000,
+    "analysis_depth": "deep"
+  },
+  "red_neuronal": {
+    "enabled": true,
+    "description": "Sistema de redes neuronales para aprendizaje profundo",
+    "max_networks": 10,
+    "default_architecture": "feedforward",
+    "gemini_integration": true
+  },
+  "conocimientos": {
+    "enabled": true,
+    "description": "Sistema de creaci\u00f3n de prompts para aprendizaje en ciberseguridad",
+    "security_topics": [
+      "autenticacion",
+      "encriptacion",
+      "malware",
+      "phishing",
+      "firewall",
+      "ids_ips",
+      "vulnerability_assessment",
+      "secure_coding",
+      "web_security",
+      "gdpr"
+    ],
+    "prompt_types": [
+      "conceptual",
+      "practico",
+      "codigo",
+      "caso_estudio",
+      "evaluacion",
+      "simulacion"
+    ],
+    "learning_paths": [
+      "fundamentos",
+      "desarrollador",
+      "administrador",
+      "analista",
+      "auditor",
+      "completo"
+    ]
+  },
+  "performance": {
+    "monitoring_interval": 300,
+    "max_log_size": 1000000,
+    "metrics_retention_days": 30,
+    "auto_cleanup": true
+  },
+  "security": {
+    "encryption_enabled": true,
+    "api_key_protection": true,
+    "secure_storage": true,
+    "audit_logging": true
+  }
+}

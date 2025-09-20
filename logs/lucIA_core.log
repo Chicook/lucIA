@@ -1,0 +1,1572 @@
+2025-09-20 20:45:31,400 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 20:45:31,402 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 20:45:31,403 - LucIA_Core - INFO - Iniciando motor de IA LucIA...
+2025-09-20 20:45:31,403 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 20:45:31,489 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 20:45:31,489 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 20:45:31,489 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 20:45:31,489 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 20:45:33,663 - LucIA_Core - ERROR - Error inicializando módulo learning: No module named 'sklearn'
+2025-09-20 20:45:33,680 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: c048a3fc...
+2025-09-20 20:45:33,680 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 20:45:33,680 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 20:45:35,182 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 20:45:35,182 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 20:45:35,182 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 20:45:35,182 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 20:45:35,200 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 20:45:35,200 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 20:45:35,200 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 20:45:35,225 - LucIA_Core - ERROR - Error inicializando módulo perception: No module named 'PIL'
+2025-09-20 20:45:35,238 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 20:45:35,238 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 20:45:35,239 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 20:45:35,272 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 20:45:35,273 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 20:45:35,273 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 20:45:35,286 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 20:45:35,286 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 20:45:35,286 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 20:45:35,311 - LucIA_Core - ERROR - Error inicializando módulo security: No module named 'jwt'
+2025-09-20 20:45:35,376 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 20:45:35,377 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 20:45:35,377 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 20:45:35,377 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 20:45:36,384 - LucIA_Monitoring - ERROR - Error recopilando métricas de LucIA: 'NoneType' object has no attribute 'get_learning_stats'
+2025-09-20 20:45:36,384 - LucIA_Monitoring - WARNING - Alerta generada: cpu_usage excedió el umbral: 94.10 >= 80.00
+2025-09-20 20:45:36,397 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.49 >= 90.00
+2025-09-20 20:45:36,684 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 20:45:36,684 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 20:45:36,685 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 20:45:36,685 - LucIA_Core - INFO - Total de módulos inicializados: 9
+2025-09-20 20:45:36,685 - LucIA_Core - INFO - Motor de IA LucIA iniciado correctamente
+2025-09-20 20:45:49,475 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 20:45:49,490 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 20:45:49,491 - LucIA_Core - INFO - Iniciando motor de IA LucIA...
+2025-09-20 20:45:49,491 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 20:45:49,531 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 20:45:49,532 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 20:45:49,532 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 20:45:49,532 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 20:45:49,662 - LucIA_Core - ERROR - Error inicializando módulo learning: No module named 'sklearn'
+2025-09-20 20:45:49,682 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: d574508c...
+2025-09-20 20:45:49,682 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 20:45:49,682 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 20:45:50,342 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 20:45:50,342 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 20:45:50,342 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 20:45:50,342 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 20:45:50,366 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 20:45:50,366 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 20:45:50,373 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 20:45:50,399 - LucIA_Core - ERROR - Error inicializando módulo perception: No module named 'PIL'
+2025-09-20 20:45:50,425 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 20:45:50,425 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 20:45:50,426 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 20:45:50,458 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 20:45:50,460 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 20:45:50,460 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 20:45:50,482 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 20:45:50,482 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 20:45:50,482 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 20:45:50,505 - LucIA_Core - ERROR - Error inicializando módulo security: No module named 'jwt'
+2025-09-20 20:45:50,547 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 20:45:50,548 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 20:45:50,548 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 20:45:50,548 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 20:45:50,742 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 20:45:50,758 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 20:45:50,759 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 20:45:50,759 - LucIA_Core - INFO - Total de módulos inicializados: 9
+2025-09-20 20:45:50,759 - LucIA_Core - INFO - Motor de IA LucIA iniciado correctamente
+2025-09-20 20:45:51,576 - LucIA_Monitoring - ERROR - Error recopilando métricas de LucIA: 'NoneType' object has no attribute 'get_learning_stats'
+2025-09-20 20:45:51,576 - LucIA_Monitoring - WARNING - Alerta generada: cpu_usage excedió el umbral: 80.50 >= 80.00
+2025-09-20 20:45:51,576 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.49 >= 90.00
+2025-09-20 20:46:07,401 - LucIA_Monitoring - ERROR - Error recopilando métricas de LucIA: 'NoneType' object has no attribute 'get_learning_stats'
+2025-09-20 20:46:40,132 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 20:46:40,134 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 20:46:40,134 - LucIA_Core - INFO - Iniciando motor de IA LucIA...
+2025-09-20 20:46:40,135 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 20:46:40,142 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 20:46:40,142 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 20:46:40,143 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 20:46:40,144 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 20:46:40,146 - LucIA_Core - ERROR - Error inicializando módulo learning: No module named 'sklearn'
+2025-09-20 20:46:40,153 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: 52a02bf4...
+2025-09-20 20:46:40,154 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 20:46:40,154 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 20:46:40,740 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 20:46:40,741 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 20:46:40,741 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 20:46:40,742 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 20:46:40,745 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 20:46:40,746 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 20:46:40,746 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 20:46:40,748 - LucIA_Core - ERROR - Error inicializando módulo perception: No module named 'PIL'
+2025-09-20 20:46:40,751 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 20:46:40,751 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 20:46:40,752 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 20:46:40,759 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 20:46:40,759 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 20:46:40,760 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 20:46:40,763 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 20:46:40,763 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 20:46:40,764 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 20:46:40,767 - LucIA_Core - ERROR - Error inicializando módulo security: No module named 'jwt'
+2025-09-20 20:46:40,780 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 20:46:40,781 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 20:46:40,781 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 20:46:40,781 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 20:46:40,952 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 20:46:40,952 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 20:46:40,952 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 20:46:40,953 - LucIA_Core - INFO - Total de módulos inicializados: 9
+2025-09-20 20:46:40,953 - LucIA_Core - INFO - Motor de IA LucIA iniciado correctamente
+2025-09-20 20:46:41,792 - LucIA_Monitoring - ERROR - Error recopilando métricas de LucIA: 'NoneType' object has no attribute 'get_learning_stats'
+2025-09-20 20:46:41,794 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.49 >= 90.00
+2025-09-20 20:47:12,814 - LucIA_Monitoring - ERROR - Error recopilando métricas de LucIA: 'NoneType' object has no attribute 'get_learning_stats'
+2025-09-20 20:47:43,827 - LucIA_Monitoring - ERROR - Error recopilando métricas de LucIA: 'NoneType' object has no attribute 'get_learning_stats'
+2025-09-20 20:48:14,843 - LucIA_Monitoring - ERROR - Error recopilando métricas de LucIA: 'NoneType' object has no attribute 'get_learning_stats'
+2025-09-20 20:48:29,402 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 20:48:29,404 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 20:48:29,404 - LucIA_Core - INFO - Iniciando motor de IA LucIA...
+2025-09-20 20:48:29,404 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 20:48:29,420 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 20:48:29,420 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 20:48:29,420 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 20:48:29,421 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 20:48:42,078 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 20:48:42,078 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 20:48:42,078 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 20:48:42,081 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: 4eb26d85...
+2025-09-20 20:48:42,081 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 20:48:42,082 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 20:48:42,581 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 20:48:42,581 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 20:48:42,581 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 20:48:42,582 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 20:48:42,585 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 20:48:42,585 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 20:48:42,585 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 20:48:42,589 - LucIA_Core - ERROR - Error inicializando módulo perception: No module named 'PIL'
+2025-09-20 20:48:42,592 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 20:48:42,592 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 20:48:42,593 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 20:48:42,631 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 20:48:42,665 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 20:48:42,700 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 20:48:42,735 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 20:48:42,770 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 20:48:42,804 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 20:48:43,718 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 20:48:43,718 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 20:48:43,719 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 20:48:43,723 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 20:48:43,723 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 20:48:43,723 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 20:48:43,724 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 20:48:43,903 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 20:48:43,903 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 20:48:43,903 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 20:48:43,905 - LucIA_Core - INFO - Total de módulos inicializados: 11
+2025-09-20 20:48:43,905 - LucIA_Core - INFO - Motor de IA LucIA iniciado correctamente
+2025-09-20 20:48:43,905 - LucIA_Core - ERROR - Error en loop de aprendizaje: module 'src.modulo2.main_modulo2' has no attribute 'process_learning_cycle'
+2025-09-20 20:48:44,737 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.53 >= 90.00
+2025-09-20 20:49:43,917 - LucIA_Core - ERROR - Error en loop de aprendizaje: module 'src.modulo2.main_modulo2' has no attribute 'process_learning_cycle'
+2025-09-20 20:51:42,938 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 20:51:42,940 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 20:51:42,941 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 20:51:42,956 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 20:51:42,958 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 20:51:42,959 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 20:51:42,959 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 20:51:49,831 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 20:51:49,831 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 20:51:49,831 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 20:51:49,831 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: 12f6628d...
+2025-09-20 20:51:49,831 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 20:51:49,831 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 20:51:50,432 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 20:51:50,432 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 20:51:50,432 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 20:51:50,432 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 20:51:50,432 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 20:51:50,432 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 20:51:50,432 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 20:51:50,615 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 20:51:50,615 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 20:51:50,615 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 20:51:50,615 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 20:51:50,615 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 20:51:50,615 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 20:51:50,632 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 20:51:50,632 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 20:51:50,632 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 20:51:50,632 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 20:51:50,632 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 20:51:50,632 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 20:51:50,696 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 20:51:50,697 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 20:51:50,697 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 20:51:50,697 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 20:51:50,697 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 20:51:50,697 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 20:51:50,697 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 20:51:50,865 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 20:51:50,865 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 20:51:50,865 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 20:51:50,865 - LucIA_Core - INFO - Total de módulos inicializados: 12
+2025-09-20 20:51:51,720 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.56 >= 90.00
+2025-09-20 20:52:22,742 - LucIA_Monitoring - WARNING - Alerta generada: cpu_usage excedió el umbral: 84.00 >= 80.00
+2025-09-20 20:52:39,856 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 20:52:39,857 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 20:52:39,857 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 20:52:39,876 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 20:52:39,877 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 20:52:39,877 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 20:52:39,877 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 20:52:41,674 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 20:52:41,674 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 20:52:41,674 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 20:52:41,674 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: a52f5976...
+2025-09-20 20:52:41,674 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 20:52:41,674 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 20:52:42,257 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 20:52:42,257 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 20:52:42,257 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 20:52:42,257 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 20:52:42,275 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 20:52:42,275 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 20:52:42,276 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 20:52:42,297 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 20:52:42,298 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 20:52:42,298 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 20:52:42,300 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 20:52:42,301 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 20:52:42,301 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 20:52:42,309 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 20:52:42,310 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 20:52:42,310 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 20:52:42,312 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 20:52:42,313 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 20:52:42,313 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 20:52:42,363 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 20:52:42,364 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 20:52:42,364 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 20:52:42,367 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 20:52:42,367 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 20:52:42,367 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 20:52:42,368 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 20:52:42,536 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 20:52:42,536 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 20:52:42,536 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 20:52:42,537 - LucIA_Core - INFO - Total de módulos inicializados: 12
+2025-09-20 20:52:43,377 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.56 >= 90.00
+2025-09-20 20:53:07,271 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 20:53:07,277 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: hola...
+2025-09-20 20:53:07,278 - LucIA_Perception - INFO - Entrada procesada: input_1758394387 (structured_data)
+2025-09-20 20:53:38,208 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 20:53:38,208 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: & C:/Users/Usuario/A...
+2025-09-20 20:53:38,208 - LucIA_Perception - INFO - Entrada procesada: input_1758394418 (structured_data)
+2025-09-20 20:54:37,429 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 20:54:37,430 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: que  mas me  puedes ...
+2025-09-20 20:54:37,431 - LucIA_Perception - INFO - Entrada procesada: input_1758394477 (structured_data)
+2025-09-20 20:55:21,877 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 20:55:21,878 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: ¿podrias comtarme  u...
+2025-09-20 20:55:21,879 - LucIA_Perception - INFO - Entrada procesada: input_1758394521 (structured_data)
+2025-09-20 21:01:47,339 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 21:01:47,339 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: mkdir celebro...
+2025-09-20 21:01:47,339 - LucIA_Perception - INFO - Entrada procesada: input_1758394907 (structured_data)
+2025-09-20 21:02:12,654 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 21:02:12,655 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: ¿puedes contar  un c...
+2025-09-20 21:02:12,655 - LucIA_Perception - INFO - Entrada procesada: input_1758394932 (structured_data)
+2025-09-20 21:48:35,449 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 21:48:35,449 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 21:48:35,449 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 21:48:35,483 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 21:48:35,483 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 21:48:35,483 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 21:48:35,483 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 21:48:37,899 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 21:48:37,899 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 21:48:37,899 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 21:48:37,916 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: b294ca04...
+2025-09-20 21:48:37,916 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 21:48:37,916 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 21:48:38,516 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 21:48:38,516 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 21:48:38,516 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 21:48:38,516 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 21:48:38,516 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 21:48:38,516 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 21:48:38,516 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 21:48:38,541 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 21:48:38,541 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 21:48:38,541 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 21:48:38,554 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 21:48:38,555 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 21:48:38,555 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 21:48:38,561 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 21:48:38,561 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 21:48:38,562 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 21:48:38,564 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 21:48:38,565 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 21:48:38,565 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 21:48:38,616 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 21:48:38,616 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 21:48:38,616 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 21:48:38,616 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 21:48:38,616 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 21:48:38,616 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 21:48:38,616 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 21:48:38,783 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 21:48:38,783 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 21:48:38,783 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 21:48:38,800 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 21:48:38,844 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 21:48:38,844 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 21:48:38,844 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 21:48:38,844 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 21:48:38,844 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 21:48:38,844 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 21:48:38,849 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 21:48:38,950 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 21:48:38,950 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:48:38,950 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 21:48:38,950 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 21:48:39,009 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:48:39,009 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 21:48:39,009 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 21:48:39,009 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 21:48:39,009 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-20 21:48:39,009 - LucIA_Core - INFO - Total de módulos inicializados: 13
+2025-09-20 21:48:39,009 - LucIA_Core - ERROR - Error procesando con @celebro: module 'src.modulo13.main_modulo13' has no attribute 'celebro_core'
+2025-09-20 21:48:39,016 - LucIA_Core - ERROR - Error generando prompts de seguridad: module 'src.modulo13.main_modulo13' has no attribute 'generate_learning_prompts'
+2025-09-20 21:48:39,022 - LucIA_Core - ERROR - Error en entrenamiento con temas de seguridad: module 'src.modulo13.main_modulo13' has no attribute 'train_with_security_topics'
+2025-09-20 21:48:39,023 - LucIA_Core - ERROR - Error obteniendo estado de sistemas avanzados: module 'src.modulo13.main_modulo13' has no attribute 'get_system_status'
+2025-09-20 21:48:39,023 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 21:48:39,024 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: Necesito aprender so...
+2025-09-20 21:48:39,024 - LucIA_Perception - INFO - Entrada procesada: input_1758397719 (structured_data)
+2025-09-20 21:48:39,027 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 21:48:39,030 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 21:48:39,030 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 21:48:39,031 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 21:48:39,031 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 21:48:39,031 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 21:48:39,031 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 21:48:39,032 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 21:48:39,032 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 21:48:39,034 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 21:48:39,034 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 21:48:39,034 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 21:48:39,034 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 21:48:39,034 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 21:48:39,034 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 21:48:39,034 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 21:48:39,034 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 21:48:39,040 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 21:48:39,040 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 21:48:39,040 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 21:48:39,040 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 21:48:39,041 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 21:48:39,041 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 21:48:39,041 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 21:48:39,041 - LucIA_Monitoring - WARNING - El monitoreo ya está activo
+2025-09-20 21:48:39,042 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 21:48:39,042 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 21:48:39,042 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 21:48:39,042 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 21:48:39,042 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 21:48:39,043 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 21:48:39,043 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 21:48:39,043 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 21:48:39,044 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 21:48:39,044 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 21:48:39,044 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 21:48:39,044 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 21:48:39,044 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:48:39,044 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 21:48:39,044 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 21:48:39,057 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:48:39,057 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 21:48:39,058 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 21:48:39,058 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 21:48:39,058 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-20 21:48:39,059 - LucIA_Core - INFO - Total de módulos inicializados: 13
+2025-09-20 21:48:39,059 - LucIA_Core - ERROR - Error generando prompts de seguridad: module 'src.modulo13.main_modulo13' has no attribute 'generate_learning_prompts'
+2025-09-20 21:48:39,059 - LucIA_Core - ERROR - Error generando prompts de seguridad: module 'src.modulo13.main_modulo13' has no attribute 'generate_learning_prompts'
+2025-09-20 21:48:39,060 - LucIA_Core - ERROR - Error generando prompts de seguridad: module 'src.modulo13.main_modulo13' has no attribute 'generate_learning_prompts'
+2025-09-20 21:48:39,060 - LucIA_Core - ERROR - Error generando prompts de seguridad: module 'src.modulo13.main_modulo13' has no attribute 'generate_learning_prompts'
+2025-09-20 21:48:39,061 - LucIA_Core - ERROR - Error en entrenamiento con temas de seguridad: module 'src.modulo13.main_modulo13' has no attribute 'train_with_security_topics'
+2025-09-20 21:48:39,061 - LucIA_Core - ERROR - Error obteniendo estado de sistemas avanzados: module 'src.modulo13.main_modulo13' has no attribute 'get_system_status'
+2025-09-20 21:49:05,933 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 21:49:05,938 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 21:49:05,941 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 21:49:05,971 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 21:49:05,971 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 21:49:05,971 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 21:49:05,971 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 21:49:08,073 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 21:49:08,073 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 21:49:08,073 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 21:49:08,073 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: cbe7ac1c...
+2025-09-20 21:49:08,073 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 21:49:08,073 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 21:49:08,708 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 21:49:08,708 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 21:49:08,708 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 21:49:08,708 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 21:49:08,708 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 21:49:08,708 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 21:49:08,708 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 21:49:08,747 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 21:49:08,747 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 21:49:08,747 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 21:49:08,750 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 21:49:08,750 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 21:49:08,750 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 21:49:08,756 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 21:49:08,759 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 21:49:08,759 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 21:49:08,762 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 21:49:08,763 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 21:49:08,763 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 21:49:08,809 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 21:49:08,809 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 21:49:08,809 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 21:49:08,809 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 21:49:08,809 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 21:49:08,809 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 21:49:08,809 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 21:49:08,978 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 21:49:08,978 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 21:49:08,978 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 21:49:08,998 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 21:49:09,060 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 21:49:09,060 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 21:49:09,060 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 21:49:09,060 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 21:49:09,072 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 21:49:09,073 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 21:49:09,073 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 21:49:09,083 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 21:49:09,088 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:49:09,090 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 21:49:09,090 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 21:49:09,156 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:49:09,156 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 21:49:09,156 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 21:49:09,156 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 21:49:09,156 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-20 21:49:09,156 - LucIA_Core - INFO - Total de módulos inicializados: 13
+2025-09-20 21:49:25,393 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 21:49:25,394 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 21:49:25,396 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 21:49:25,413 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 21:49:25,413 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 21:49:25,413 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 21:49:25,413 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 21:49:27,421 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 21:49:27,421 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 21:49:27,421 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 21:49:27,439 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: 3bd99036...
+2025-09-20 21:49:27,441 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 21:49:27,441 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 21:49:28,037 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 21:49:28,038 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 21:49:28,038 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 21:49:28,038 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 21:49:28,038 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 21:49:28,038 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 21:49:28,038 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 21:49:28,064 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 21:49:28,064 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 21:49:28,064 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 21:49:28,069 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 21:49:28,070 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 21:49:28,070 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 21:49:28,071 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 21:49:28,071 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 21:49:28,071 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 21:49:28,082 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 21:49:28,083 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 21:49:28,083 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 21:49:28,121 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 21:49:28,121 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 21:49:28,121 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 21:49:28,121 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 21:49:28,121 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 21:49:28,121 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 21:49:28,121 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 21:49:28,287 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 21:49:28,287 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 21:49:28,287 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 21:49:28,288 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 21:49:28,307 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 21:49:28,307 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 21:49:28,307 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 21:49:28,307 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 21:49:28,307 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 21:49:28,315 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 21:49:28,315 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 21:49:28,331 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 21:49:28,331 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:49:28,332 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 21:49:28,332 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 21:49:28,348 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:49:28,348 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 21:49:28,348 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 21:49:28,348 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 21:49:28,348 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-20 21:49:28,348 - LucIA_Core - INFO - Total de módulos inicializados: 13
+2025-09-20 21:49:28,353 - LucIA_Core - ERROR - Error generando prompts de seguridad: module 'src.modulo13.main_modulo13' has no attribute 'generate_learning_prompts'
+2025-09-20 21:49:28,354 - LucIA_Core - ERROR - Error en entrenamiento con temas de seguridad: module 'src.modulo13.main_modulo13' has no attribute 'train_with_security_topics'
+2025-09-20 21:49:28,354 - LucIA_Core - ERROR - Error obteniendo estado de sistemas avanzados: module 'src.modulo13.main_modulo13' has no attribute 'get_system_status'
+2025-09-20 21:49:28,354 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 21:49:28,359 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: ¿Cómo implementar au...
+2025-09-20 21:49:28,360 - LucIA_Perception - INFO - Entrada procesada: input_1758397768 (structured_data)
+2025-09-20 21:50:35,239 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 21:50:35,239 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 21:50:35,239 - LucIA_Core - INFO - Iniciando motor de IA LucIA...
+2025-09-20 21:50:35,239 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 21:50:35,255 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 21:50:35,255 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 21:50:35,255 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 21:50:35,255 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 21:50:36,723 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 21:50:36,723 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 21:50:36,723 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 21:50:36,723 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: 4bedc0cf...
+2025-09-20 21:50:36,723 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 21:50:36,739 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 21:50:37,223 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 21:50:37,223 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 21:50:37,223 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 21:50:37,223 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 21:50:37,223 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 21:50:37,223 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 21:50:37,223 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 21:50:37,246 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 21:50:37,246 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 21:50:37,246 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 21:50:37,259 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 21:50:37,259 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 21:50:37,259 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 21:50:37,265 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 21:50:37,265 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 21:50:37,265 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 21:50:37,268 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 21:50:37,269 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 21:50:37,269 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 21:50:37,323 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 21:50:37,323 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 21:50:37,323 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 21:50:37,366 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 21:50:37,441 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 21:50:37,489 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 21:50:37,526 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 21:50:37,727 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 21:50:37,740 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 21:50:37,740 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 21:50:37,756 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 21:50:37,796 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 21:50:37,796 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 21:50:37,796 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 21:50:37,796 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 21:50:37,796 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 21:50:37,797 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 21:50:37,797 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 21:50:37,808 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 21:50:37,809 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:50:37,809 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 21:50:37,809 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 21:50:37,825 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:50:37,825 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 21:50:37,825 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 21:50:37,825 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 21:50:37,825 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-20 21:50:37,825 - LucIA_Core - INFO - Total de módulos inicializados: 13
+2025-09-20 21:50:37,832 - LucIA_Core - INFO - Motor de IA LucIA iniciado correctamente
+2025-09-20 21:50:37,832 - LucIA_Core - ERROR - Error en loop de aprendizaje: module 'src.modulo2.main_modulo2' has no attribute 'process_learning_cycle'
+2025-09-20 21:50:38,454 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.58 >= 90.00
+2025-09-20 21:51:37,835 - LucIA_Core - ERROR - Error en loop de aprendizaje: module 'src.modulo2.main_modulo2' has no attribute 'process_learning_cycle'
+2025-09-20 21:52:37,833 - LucIA_Core - ERROR - Error en loop de aprendizaje: module 'src.modulo2.main_modulo2' has no attribute 'process_learning_cycle'
+2025-09-20 21:53:15,177 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 21:53:15,177 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 21:53:15,177 - LucIA_Core - INFO - Iniciando motor de IA LucIA...
+2025-09-20 21:53:15,177 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 21:53:15,199 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 21:53:15,200 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 21:53:15,200 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 21:53:15,201 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 21:53:16,645 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 21:53:16,645 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 21:53:16,645 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 21:53:16,645 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: 7ece80e1...
+2025-09-20 21:53:16,645 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 21:53:16,645 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 21:53:17,168 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 21:53:17,168 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 21:53:17,168 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 21:53:17,168 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 21:53:17,171 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 21:53:17,172 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 21:53:17,172 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 21:53:17,189 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 21:53:17,189 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 21:53:17,189 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 21:53:17,194 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 21:53:17,194 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 21:53:17,195 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 21:53:17,201 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 21:53:17,201 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 21:53:17,201 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 21:53:17,204 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 21:53:17,205 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 21:53:17,205 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 21:53:17,254 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 21:53:17,254 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 21:53:17,255 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 21:53:17,258 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 21:53:17,259 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 21:53:17,259 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 21:53:17,261 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 21:53:17,418 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 21:53:17,418 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 21:53:17,418 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 21:53:17,420 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 21:53:17,430 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 21:53:17,430 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 21:53:17,430 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 21:53:17,430 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 21:53:17,431 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 21:53:17,432 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 21:53:17,432 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 21:53:17,445 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 21:53:17,446 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:53:17,446 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 21:53:17,447 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 21:53:17,462 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:53:17,462 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 21:53:17,462 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 21:53:17,462 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 21:53:17,462 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-20 21:53:17,462 - LucIA_Core - INFO - Total de módulos inicializados: 13
+2025-09-20 21:53:17,462 - LucIA_Core - INFO - Motor de IA LucIA iniciado correctamente
+2025-09-20 21:53:17,462 - LucIA_Core - ERROR - Error en loop de aprendizaje: module 'src.modulo2.main_modulo2' has no attribute 'process_learning_cycle'
+2025-09-20 21:53:18,265 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.58 >= 90.00
+2025-09-20 21:58:41,914 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 21:58:41,930 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 21:58:48,325 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 21:58:48,325 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 21:58:48,622 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 21:58:48,622 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: aee84678...
+2025-09-20 21:58:48,622 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 21:58:48,636 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 21:58:48,650 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 21:58:48,651 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 21:58:48,651 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 21:58:48,651 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 21:58:48,652 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 21:58:48,653 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 21:58:48,667 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 21:58:48,669 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:58:48,669 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 21:58:48,687 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 21:58:48,687 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 21:58:48,688 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 21:58:48,688 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 21:58:48,688 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 21:58:48,689 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 21:58:48,689 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 21:58:48,690 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 21:58:48,690 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:58:48,691 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 21:58:48,691 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 21:58:48,696 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:58:48,696 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 21:58:48,697 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 21:58:48,699 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 21:58:48,702 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 21:58:57,922 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 21:58:57,922 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 21:58:57,922 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 21:58:57,922 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 21:58:57,922 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 21:58:57,922 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 21:58:57,922 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 21:58:57,922 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 21:58:57,922 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 21:58:57,922 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 21:58:57,922 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 21:58:57,922 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 21:58:57,938 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 21:58:57,943 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 21:58:57,943 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 21:58:57,943 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 21:58:57,949 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 21:58:57,949 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 21:58:57,950 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 21:58:57,955 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 21:58:57,955 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 21:58:57,959 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 21:58:57,962 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 21:58:57,963 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 21:58:57,963 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 21:58:57,978 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 21:58:57,978 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 21:58:57,978 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 21:58:57,978 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 21:58:57,978 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 21:58:57,978 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 21:58:57,978 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 21:58:57,986 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 21:58:57,987 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 21:58:57,987 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 21:58:57,988 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 21:58:57,988 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 21:58:57,989 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 21:58:57,989 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 21:58:57,990 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 21:58:57,991 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 21:58:57,991 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 21:58:57,995 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 21:58:57,995 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:58:57,996 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 21:58:57,996 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 21:58:58,000 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 21:58:58,000 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 21:58:58,000 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 21:58:58,000 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 21:58:58,000 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-20 21:58:58,003 - LucIA_Core - INFO - Total de módulos inicializados: 13
+2025-09-20 21:58:58,004 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 21:58:58,005 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: Hola, soy una prueba...
+2025-09-20 21:58:58,006 - LucIA_Perception - INFO - Entrada procesada: input_1758398338 (structured_data)
+2025-09-20 21:58:58,007 - LucIA_Core - ERROR - Error generando prompts de seguridad: module 'src.modulo13.main_modulo13' has no attribute 'generate_learning_prompts'
+2025-09-20 22:00:14,999 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 22:00:24,505 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 22:00:24,505 - LucIA_Core - INFO - Iniciando motor de IA LucIA...
+2025-09-20 22:00:24,505 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 22:00:24,524 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 22:00:24,524 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 22:00:24,524 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 22:00:24,524 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 22:00:25,507 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 22:00:25,507 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 22:00:25,507 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 22:00:25,507 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: 243084d9...
+2025-09-20 22:00:25,507 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 22:00:25,507 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 22:00:25,507 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 22:00:25,507 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:00:25,507 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:00:25,507 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 22:00:25,523 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 22:00:25,523 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 22:00:25,524 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 22:00:25,526 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 22:00:25,527 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 22:00:25,527 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 22:00:25,531 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 22:00:25,532 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 22:00:25,532 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 22:00:25,538 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 22:00:25,538 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 22:00:25,539 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 22:00:25,543 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 22:00:25,543 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 22:00:25,543 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 22:00:25,606 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 22:00:25,606 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 22:00:25,606 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 22:00:25,609 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 22:00:25,610 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 22:00:25,611 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 22:00:25,611 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 22:00:25,615 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 22:00:25,615 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 22:00:25,615 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 22:00:25,622 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 22:00:25,641 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:00:25,641 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:00:25,641 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:00:25,642 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:00:25,642 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:00:25,643 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:00:25,643 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 22:00:25,653 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:00:25,653 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:00:25,653 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:00:25,653 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 22:00:25,682 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:00:25,683 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 22:00:25,683 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 22:00:25,683 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 22:00:25,683 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-20 22:00:25,684 - LucIA_Core - INFO - Total de módulos inicializados: 13
+2025-09-20 22:00:26,252 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:00:26,252 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:00:26,252 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:00:26,253 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:00:26,253 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:00:26,254 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:00:26,256 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:00:26,256 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:00:26,259 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 22:00:26,259 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:00:26,260 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:00:26,260 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:00:26,261 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:00:26,261 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:00:26,262 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:00:26,262 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 22:00:26,263 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:00:26,263 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:00:26,264 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 22:00:26,274 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:00:26,274 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 22:00:26,275 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 22:00:26,275 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 22:00:26,283 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 22:00:26,623 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.58 >= 90.00
+2025-09-20 22:00:34,029 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 22:00:34,046 - LucIA_Core - INFO - Motor de IA LucIA iniciado correctamente
+2025-09-20 22:00:34,046 - LucIA_Learning - INFO - Iniciando ciclo de aprendizaje automático
+2025-09-20 22:00:34,046 - LucIA_Learning - INFO - No hay datos de entrenamiento disponibles
+2025-09-20 22:04:46,170 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 22:04:58,331 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 22:04:58,331 - LucIA_Core - INFO - Iniciando motor de IA LucIA...
+2025-09-20 22:04:58,331 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 22:04:58,331 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 22:04:58,331 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 22:04:58,331 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 22:04:58,331 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 22:04:59,718 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 22:04:59,718 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 22:04:59,718 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 22:04:59,718 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: 0b7fd6e6...
+2025-09-20 22:04:59,718 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 22:04:59,718 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 22:04:59,732 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 22:04:59,732 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:04:59,732 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:04:59,736 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 22:04:59,740 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 22:04:59,740 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 22:04:59,740 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 22:04:59,740 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 22:04:59,740 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 22:04:59,740 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 22:04:59,748 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 22:04:59,750 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 22:04:59,752 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 22:04:59,761 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 22:04:59,761 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 22:04:59,762 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 22:04:59,769 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 22:04:59,770 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 22:04:59,771 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 22:04:59,823 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 22:04:59,823 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 22:04:59,823 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 22:04:59,823 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 22:04:59,823 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 22:04:59,823 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 22:04:59,831 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 22:04:59,837 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 22:04:59,838 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 22:04:59,838 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 22:04:59,847 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 22:04:59,905 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:04:59,905 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:04:59,906 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:04:59,906 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:04:59,906 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:04:59,907 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:04:59,907 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 22:04:59,975 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:04:59,976 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:04:59,976 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:04:59,976 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 22:04:59,993 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:04:59,994 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 22:04:59,994 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 22:04:59,994 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 22:04:59,995 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-20 22:04:59,995 - LucIA_Core - INFO - Total de módulos inicializados: 13
+2025-09-20 22:05:00,716 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:05:00,716 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:05:00,716 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:05:00,716 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:05:00,716 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:05:00,716 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:05:00,716 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:05:00,716 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:05:00,734 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 22:05:00,734 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:05:00,734 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:05:00,734 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:05:00,740 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:05:00,740 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:05:00,740 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:05:00,741 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 22:05:00,741 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:05:00,742 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:05:00,742 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 22:05:00,745 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:05:00,745 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 22:05:00,748 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 22:05:00,749 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 22:05:00,756 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 22:05:00,850 - LucIA_Monitoring - WARNING - Alerta generada: cpu_usage excedió el umbral: 82.90 >= 80.00
+2025-09-20 22:05:00,850 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.58 >= 90.00
+2025-09-20 22:05:11,812 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 22:05:11,812 - LucIA_Core - INFO - Motor de IA LucIA iniciado correctamente
+2025-09-20 22:05:11,827 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 22:05:11,829 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: python main.py...
+2025-09-20 22:05:11,830 - LucIA_Perception - INFO - Entrada procesada: input_1758398711 (structured_data)
+2025-09-20 22:05:11,830 - LucIA_Core - ERROR - Error procesando con @celebro: module 'src.modulo13.main_modulo13' has no attribute 'celebro_core'
+2025-09-20 22:05:20,681 - LucIA_Core - INFO - Recibida señal de interrupción
+2025-09-20 22:05:20,681 - LucIA_Core - INFO - Iniciando apagado del motor de IA...
+2025-09-20 22:05:20,681 - LucIA_Core - INFO - Configuración guardada
+2025-09-20 22:05:20,681 - LucIA_Core - INFO - Motor de IA apagado correctamente
+2025-09-20 22:05:48,118 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 22:05:57,108 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 22:05:57,108 - LucIA_Core - INFO - Iniciando motor de IA LucIA...
+2025-09-20 22:05:57,108 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 22:05:57,127 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 22:05:57,128 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 22:05:57,128 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 22:05:57,128 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 22:05:58,111 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 22:05:58,111 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 22:05:58,111 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 22:05:58,111 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: d0511631...
+2025-09-20 22:05:58,111 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 22:05:58,111 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 22:05:58,128 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 22:05:58,129 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:05:58,129 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:05:58,129 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 22:05:58,132 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 22:05:58,132 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 22:05:58,132 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 22:05:58,134 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 22:05:58,134 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 22:05:58,134 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 22:05:58,139 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 22:05:58,139 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 22:05:58,139 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 22:05:58,146 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 22:05:58,146 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 22:05:58,146 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 22:05:58,149 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 22:05:58,150 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 22:05:58,150 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 22:05:58,210 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 22:05:58,211 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 22:05:58,211 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 22:05:58,214 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 22:05:58,214 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 22:05:58,214 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 22:05:58,214 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 22:05:58,222 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 22:05:58,223 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 22:05:58,223 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 22:05:58,224 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 22:05:58,277 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:05:58,277 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:05:58,277 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:05:58,292 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:05:58,293 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:05:58,295 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:05:58,295 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 22:05:58,395 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:05:58,395 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:05:58,395 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:05:58,395 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 22:05:58,413 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:05:58,413 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 22:05:58,414 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 22:05:58,414 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 22:05:58,415 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-20 22:05:58,415 - LucIA_Core - INFO - Total de módulos inicializados: 13
+2025-09-20 22:05:58,947 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:05:58,947 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:05:58,947 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:05:58,947 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:05:58,959 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:05:58,961 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:05:58,963 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:05:58,964 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:05:58,967 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 22:05:58,967 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:05:58,967 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:05:58,967 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:05:58,967 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:05:58,967 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:05:58,968 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:05:58,968 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 22:05:58,969 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:05:58,969 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:05:58,970 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 22:05:58,974 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:05:58,975 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 22:05:58,975 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 22:05:58,976 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 22:05:58,985 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 22:05:59,227 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.58 >= 90.00
+2025-09-20 22:06:06,699 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 22:06:06,699 - LucIA_Core - INFO - Motor de IA LucIA iniciado correctamente
+2025-09-20 22:06:47,196 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 22:06:47,198 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: ¿piedes  contarme  u...
+2025-09-20 22:06:47,198 - LucIA_Perception - INFO - Entrada procesada: input_1758398807 (structured_data)
+2025-09-20 22:06:47,199 - LucIA_Core - ERROR - Error procesando con @celebro: module 'src.modulo13.main_modulo13' has no attribute 'celebro_core'
+2025-09-20 22:07:52,845 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 22:07:52,846 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: cualquiera de  ellos...
+2025-09-20 22:07:52,846 - LucIA_Perception - INFO - Entrada procesada: input_1758398872 (structured_data)
+2025-09-20 22:07:52,846 - LucIA_Core - ERROR - Error procesando con @celebro: module 'src.modulo13.main_modulo13' has no attribute 'celebro_core'
+2025-09-20 22:08:46,181 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 22:08:46,182 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: ¿si  un hacker  atac...
+2025-09-20 22:08:46,182 - LucIA_Perception - INFO - Entrada procesada: input_1758398926 (structured_data)
+2025-09-20 22:08:46,182 - LucIA_Core - ERROR - Error procesando con @celebro: module 'src.modulo13.main_modulo13' has no attribute 'celebro_core'
+2025-09-20 22:09:48,965 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 22:09:48,965 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: ¿por  ejemplo su te ...
+2025-09-20 22:09:48,965 - LucIA_Perception - INFO - Entrada procesada: input_1758398988 (structured_data)
+2025-09-20 22:09:48,966 - LucIA_Core - ERROR - Error procesando con @celebro: module 'src.modulo13.main_modulo13' has no attribute 'celebro_core'
+2025-09-20 22:10:20,028 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 22:10:20,029 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: qut...
+2025-09-20 22:10:20,029 - LucIA_Perception - INFO - Entrada procesada: input_1758399020 (structured_data)
+2025-09-20 22:10:20,029 - LucIA_Core - ERROR - Error procesando con @celebro: module 'src.modulo13.main_modulo13' has no attribute 'celebro_core'
+2025-09-20 22:10:27,349 - LucIA_Learning - INFO - Iniciando ciclo de aprendizaje automático
+2025-09-20 22:10:27,349 - LucIA_Learning - INFO - No hay datos de entrenamiento disponibles
+2025-09-20 22:12:34,162 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 22:12:46,571 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 22:12:46,571 - LucIA_Core - INFO - Iniciando motor de IA LucIA...
+2025-09-20 22:12:46,571 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 22:12:46,571 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 22:12:46,588 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 22:12:46,588 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 22:12:46,588 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 22:12:47,898 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 22:12:47,898 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 22:12:47,898 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 22:12:47,900 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: adc9bcc5...
+2025-09-20 22:12:47,901 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 22:12:47,901 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 22:12:47,903 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 22:12:47,905 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:12:47,905 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:12:47,905 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 22:12:47,912 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 22:12:47,912 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 22:12:47,912 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 22:12:47,915 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 22:12:47,915 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 22:12:47,916 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 22:12:47,918 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 22:12:47,918 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 22:12:47,918 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 22:12:47,929 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 22:12:47,929 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 22:12:47,929 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 22:12:47,931 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 22:12:47,931 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 22:12:47,931 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 22:12:47,986 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 22:12:47,986 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 22:12:47,987 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 22:12:47,993 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 22:12:47,994 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 22:12:47,995 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 22:12:47,997 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 22:12:47,997 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 22:12:47,997 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 22:12:47,997 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 22:12:47,997 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 22:12:48,016 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:12:48,017 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:12:48,018 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:12:48,018 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:12:48,018 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:12:48,019 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:12:48,019 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 22:12:48,066 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:12:48,100 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:12:48,111 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:12:48,111 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 22:12:48,144 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:12:48,181 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 22:12:48,181 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 22:12:48,181 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 22:12:48,181 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-20 22:12:48,181 - LucIA_Core - INFO - Total de módulos inicializados: 13
+2025-09-20 22:12:49,011 - LucIA_Monitoring - WARNING - Alerta generada: cpu_usage excedió el umbral: 93.20 >= 80.00
+2025-09-20 22:12:49,011 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.58 >= 90.00
+2025-09-20 22:12:49,011 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:12:49,011 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:12:49,011 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:12:49,011 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:12:49,011 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:12:49,011 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:12:49,028 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:12:49,028 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:12:49,031 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 22:12:49,031 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:12:49,032 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:12:49,032 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:12:49,032 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:12:49,033 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:12:49,033 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:12:49,033 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 22:12:49,034 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:12:49,035 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:12:49,035 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 22:12:49,045 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:12:49,045 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 22:12:49,045 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 22:12:49,045 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 22:12:49,061 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 22:12:58,514 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 22:12:58,514 - LucIA_Core - INFO - Motor de IA LucIA iniciado correctamente
+2025-09-20 22:12:58,514 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:17:19,534 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 22:17:31,026 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 22:17:31,026 - LucIA_Core - INFO - Iniciando motor de IA LucIA...
+2025-09-20 22:17:31,026 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 22:17:31,026 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 22:17:31,040 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 22:17:31,041 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 22:17:31,041 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 22:17:32,674 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 22:17:32,675 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 22:17:32,676 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 22:17:32,679 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: 231297c5...
+2025-09-20 22:17:32,679 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 22:17:32,679 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 22:17:32,681 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 22:17:32,681 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:17:32,681 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:17:32,681 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 22:17:32,690 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 22:17:32,691 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 22:17:32,692 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 22:17:32,695 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 22:17:32,695 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 22:17:32,695 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 22:17:32,695 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 22:17:32,695 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 22:17:32,695 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 22:17:32,709 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 22:17:32,709 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 22:17:32,709 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 22:17:32,712 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 22:17:32,712 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 22:17:32,712 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 22:17:32,764 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 22:17:32,764 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 22:17:32,765 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 22:17:32,768 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 22:17:32,769 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 22:17:32,772 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 22:17:32,773 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 22:17:32,778 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 22:17:32,778 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 22:17:32,779 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 22:17:32,780 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 22:17:32,794 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:17:32,794 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:17:32,794 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:17:32,794 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:17:32,794 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:17:32,794 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:17:32,794 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 22:17:32,815 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:17:32,817 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:17:32,817 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:17:32,817 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 22:17:32,837 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:17:32,837 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 22:17:32,837 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 22:17:32,841 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 22:17:32,842 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-20 22:17:32,843 - LucIA_Core - INFO - Total de módulos inicializados: 13
+2025-09-20 22:17:33,596 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:17:33,596 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:17:33,596 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:17:33,596 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:17:33,596 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:17:33,596 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:17:33,596 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:17:33,596 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:17:33,607 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 22:17:33,608 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:17:33,609 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:17:33,609 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:17:33,609 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:17:33,610 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:17:33,610 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:17:33,610 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 22:17:33,611 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:17:33,611 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:17:33,612 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 22:17:33,617 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:17:33,617 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 22:17:33,618 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 22:17:33,618 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 22:17:33,635 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 22:17:33,784 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.58 >= 90.00
+2025-09-20 22:17:42,749 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 22:17:42,749 - LucIA_Core - INFO - Motor de IA LucIA iniciado correctamente
+2025-09-20 22:17:42,760 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:17:58,397 - LucIA_Learning - INFO - Iniciando ciclo de aprendizaje automático
+2025-09-20 22:17:58,397 - LucIA_Learning - INFO - No hay datos de entrenamiento disponibles
+2025-09-20 22:27:20,791 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 22:27:33,202 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 22:27:33,204 - LucIA_Core - INFO - Iniciando motor de IA LucIA...
+2025-09-20 22:27:33,204 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 22:27:33,214 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 22:27:33,215 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 22:27:33,215 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 22:27:33,217 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 22:27:34,570 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 22:27:34,570 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 22:27:34,570 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 22:27:34,570 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: ce130793...
+2025-09-20 22:27:34,570 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 22:27:34,581 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 22:27:34,587 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 22:27:34,587 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:27:34,587 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:27:34,587 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 22:27:34,587 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 22:27:34,587 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 22:27:34,587 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 22:27:34,587 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 22:27:34,587 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 22:27:34,587 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 22:27:34,604 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 22:27:34,605 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 22:27:34,605 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 22:27:34,611 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 22:27:34,611 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 22:27:34,611 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 22:27:34,615 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 22:27:34,615 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 22:27:34,616 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 22:27:34,675 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 22:27:34,675 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 22:27:34,676 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 22:27:34,680 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 22:27:34,681 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 22:27:34,681 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 22:27:34,681 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 22:27:34,681 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 22:27:34,681 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 22:27:34,681 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 22:27:34,681 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 22:27:34,706 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:27:34,706 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:27:34,706 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:27:34,707 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:27:34,707 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:27:34,708 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:27:34,708 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 22:27:34,710 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:27:34,725 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:27:34,742 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:27:34,742 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:27:34,742 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-20 22:27:34,763 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:27:34,763 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:27:34,763 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:27:34,763 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:27:34,763 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-20 22:27:34,763 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:27:34,763 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:27:34,763 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 22:27:34,825 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:27:34,825 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:27:34,825 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:27:34,825 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:27:34,825 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-20 22:27:34,825 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:27:34,825 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 22:27:34,825 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 22:27:34,825 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 22:27:34,825 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-20 22:27:34,825 - LucIA_Core - INFO - Total de módulos inicializados: 13
+2025-09-20 22:27:35,538 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:27:35,538 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:27:35,538 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:27:35,538 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:27:35,538 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:27:35,538 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:27:35,538 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:27:35,538 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:27:35,538 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:27:35,538 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:27:35,538 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-20 22:27:35,538 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:27:35,538 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:27:35,555 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 22:27:35,556 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:27:35,556 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:27:35,556 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:27:35,557 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:27:35,557 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:27:35,558 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:27:35,558 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 22:27:35,560 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:27:35,560 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:27:35,561 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:27:35,561 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:27:35,561 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-20 22:27:35,562 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:27:35,562 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:27:35,562 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 22:27:35,572 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:27:35,572 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:27:35,573 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:27:35,573 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:27:35,573 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-20 22:27:35,574 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:27:35,574 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 22:27:35,574 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 22:27:35,574 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 22:27:35,583 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 22:27:35,698 - LucIA_Monitoring - WARNING - Alerta generada: cpu_usage excedió el umbral: 82.40 >= 80.00
+2025-09-20 22:27:35,698 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.58 >= 90.00
+2025-09-20 22:27:45,291 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 22:27:45,307 - LucIA_Core - INFO - Motor de IA LucIA iniciado correctamente
+2025-09-20 22:27:45,307 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:28:37,718 - LucIA_Monitoring - WARNING - Alerta generada: cpu_usage excedió el umbral: 82.90 >= 80.00
+2025-09-20 22:38:45,768 - LucIA_Core - INFO - Procesando entrada: str
+2025-09-20 22:38:45,770 - LucIA_Memory - INFO - Recuperadas 0 memorias para consulta: python demo_infrastr...
+2025-09-20 22:38:45,770 - LucIA_Perception - INFO - Entrada procesada: input_1758400725 (structured_data)
+2025-09-20 22:38:50,778 - LucIA_Learning - INFO - Iniciando ciclo de aprendizaje automático
+2025-09-20 22:38:50,778 - LucIA_Learning - INFO - No hay datos de entrenamiento disponibles
+2025-09-20 22:39:14,031 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 22:39:26,077 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 22:39:26,219 - LucIA_Core - INFO - Iniciando motor de IA LucIA...
+2025-09-20 22:39:26,219 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 22:39:26,233 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 22:39:26,233 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 22:39:26,234 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 22:39:26,234 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 22:39:27,563 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 22:39:27,565 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 22:39:27,565 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 22:39:27,565 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: 7f2e3c4e...
+2025-09-20 22:39:27,565 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 22:39:27,565 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 22:39:27,565 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 22:39:27,565 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:39:27,565 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:39:27,565 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 22:39:27,578 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 22:39:27,579 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 22:39:27,579 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 22:39:27,583 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 22:39:27,584 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 22:39:27,584 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 22:39:27,587 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 22:39:27,587 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 22:39:27,588 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 22:39:27,598 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 22:39:27,599 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 22:39:27,599 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 22:39:27,601 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 22:39:27,601 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 22:39:27,601 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 22:39:27,650 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 22:39:27,650 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 22:39:27,650 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 22:39:27,664 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 22:39:27,665 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 22:39:27,665 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 22:39:27,666 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 22:39:27,669 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 22:39:27,669 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 22:39:27,669 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 22:39:27,671 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 22:39:27,715 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:39:27,715 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:39:27,715 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:39:27,715 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:39:27,715 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:39:27,715 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:39:27,715 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 22:39:27,784 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:27,784 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:27,800 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:27,800 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:27,800 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-20 22:39:27,820 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:27,820 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:27,820 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:27,821 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:27,821 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-20 22:39:27,821 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:39:27,822 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:27,822 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 22:39:27,897 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:27,897 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:27,897 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:27,897 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:27,897 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-20 22:39:27,897 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:39:27,913 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 22:39:27,913 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 22:39:27,913 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 22:39:27,913 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-20 22:39:27,913 - LucIA_Core - ERROR - Error en el motor principal: 'infrastructure'
+2025-09-20 22:39:27,913 - LucIA_Core - INFO - Iniciando apagado del motor de IA...
+2025-09-20 22:39:27,913 - LucIA_Core - INFO - Configuración guardada
+2025-09-20 22:39:27,913 - LucIA_Core - INFO - Motor de IA apagado correctamente
+2025-09-20 22:39:41,775 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 22:39:54,952 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 22:39:54,952 - LucIA_Core - INFO - Iniciando motor de IA LucIA...
+2025-09-20 22:39:54,952 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-20 22:39:54,969 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-20 22:39:54,969 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-20 22:39:54,969 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-20 22:39:54,969 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-20 22:39:56,270 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-20 22:39:56,270 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-20 22:39:56,270 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-20 22:39:56,270 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: 832f1fde...
+2025-09-20 22:39:56,270 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-20 22:39:56,270 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-20 22:39:56,286 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-20 22:39:56,286 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:39:56,286 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-20 22:39:56,286 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-20 22:39:56,286 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-20 22:39:56,286 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-20 22:39:56,286 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-20 22:39:56,286 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-20 22:39:56,286 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-20 22:39:56,286 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-20 22:39:56,303 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-20 22:39:56,303 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-20 22:39:56,304 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-20 22:39:56,309 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-20 22:39:56,309 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-20 22:39:56,310 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-20 22:39:56,312 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-20 22:39:56,313 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-20 22:39:56,313 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-20 22:39:56,366 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-20 22:39:56,368 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-20 22:39:56,368 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-20 22:39:56,368 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-20 22:39:56,368 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-20 22:39:56,368 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-20 22:39:56,368 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-20 22:39:56,368 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-20 22:39:56,368 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-20 22:39:56,368 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-20 22:39:56,368 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 22:39:56,452 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:39:56,452 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:39:56,452 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:39:56,452 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:39:56,452 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:39:56,452 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:39:56,452 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 22:39:56,551 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:56,568 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:56,589 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:56,589 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:56,589 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-20 22:39:56,610 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:56,610 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:56,610 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:56,610 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:56,615 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-20 22:39:56,617 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:39:56,617 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:56,617 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 22:39:56,638 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:56,638 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:56,638 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:56,638 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:56,638 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-20 22:39:56,638 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:39:56,638 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 22:39:56,638 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 22:39:56,638 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 22:39:56,638 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-20 22:39:56,688 - Intelligent_Cache - INFO - Sistema de caché inteligente inicializado
+2025-09-20 22:39:56,718 - Temp_Manager - INFO - Sistema de gestión de archivos temporales inicializado
+2025-09-20 22:39:56,756 - Neural_Models - INFO - Cargados 1 modelos neuronales
+2025-09-20 22:39:56,756 - Neural_Models - INFO - Sistema de modelos neuronales inicializado
+2025-09-20 22:39:56,786 - Decision_Models - INFO - Cargados 1 modelos de decisión
+2025-09-20 22:39:56,786 - Decision_Models - INFO - Sistema de modelos de decisión inicializado
+2025-09-20 22:39:56,816 - Optimization_Models - INFO - Cargados 1 modelos de optimización
+2025-09-20 22:39:56,816 - Optimization_Models - INFO - Sistema de modelos de optimización inicializado
+2025-09-20 22:39:56,867 - Learning_Data_Manager - INFO - Cargados 4 datasets de aprendizaje
+2025-09-20 22:39:56,867 - Learning_Data_Manager - INFO - Sistema de gestión de datos de aprendizaje inicializado
+2025-09-20 22:39:56,867 - Intelligent_Cache - INFO - Sistema de caché inteligente inicializado
+2025-09-20 22:39:56,867 - Temp_Manager - INFO - Sistema de gestión de archivos temporales inicializado
+2025-09-20 22:39:56,867 - Neural_Models - INFO - Cargados 1 modelos neuronales
+2025-09-20 22:39:56,867 - Neural_Models - INFO - Sistema de modelos neuronales inicializado
+2025-09-20 22:39:56,867 - Decision_Models - INFO - Cargados 1 modelos de decisión
+2025-09-20 22:39:56,867 - Decision_Models - INFO - Sistema de modelos de decisión inicializado
+2025-09-20 22:39:56,867 - Optimization_Models - INFO - Cargados 1 modelos de optimización
+2025-09-20 22:39:56,867 - Optimization_Models - INFO - Sistema de modelos de optimización inicializado
+2025-09-20 22:39:56,867 - Learning_Data_Manager - INFO - Cargados 4 datasets de aprendizaje
+2025-09-20 22:39:56,867 - Learning_Data_Manager - INFO - Sistema de gestión de datos de aprendizaje inicializado
+2025-09-20 22:39:56,867 - Modulo14_Infraestructura - INFO - Integrador de infraestructura inicializado
+2025-09-20 22:39:56,867 - Modulo14_Infraestructura - INFO - Datos persistentes cargados
+2025-09-20 22:39:56,867 - Modulo14_Infraestructura - INFO - Módulo 14 - Sistema Integrador de Infraestructura inicializado correctamente
+2025-09-20 22:39:56,867 - LucIA_Core - INFO - Módulo infrastructure inicializado correctamente
+2025-09-20 22:39:56,867 - LucIA_Core - INFO - Total de módulos inicializados: 14
+2025-09-20 22:39:57,454 - LucIA_Monitoring - WARNING - Alerta generada: cpu_usage excedió el umbral: 93.20 >= 80.00
+2025-09-20 22:39:57,455 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.59 >= 90.00
+2025-09-20 22:39:57,657 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:39:57,657 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:39:57,657 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:39:57,657 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:39:57,657 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:39:57,657 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:39:57,657 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:57,669 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:57,670 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:57,671 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:57,671 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-20 22:39:57,672 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:39:57,672 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:57,677 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-20 22:39:57,677 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-20 22:39:57,678 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-20 22:39:57,678 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-20 22:39:57,678 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-20 22:39:57,679 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-20 22:39:57,680 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-20 22:39:57,680 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-20 22:39:57,680 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:57,687 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:57,688 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:57,688 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:57,689 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-20 22:39:57,690 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:39:57,690 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:57,691 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-20 22:39:57,695 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:57,695 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:57,695 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-20 22:39:57,695 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:39:57,695 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-20 22:39:57,710 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-20 22:39:57,710 - Deep_Learning_Trainer - INFO - Entrenador de Aprendizaje Profundo inicializado
+2025-09-20 22:39:57,725 - Modulo13_Integracion - INFO - Sistema @conocimientos integrado correctamente
+2025-09-20 22:39:57,727 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-20 22:39:57,729 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-20 22:40:08,094 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-20 22:40:08,094 - LucIA_Core - INFO - Motor de IA LucIA iniciado correctamente
+2025-09-20 22:40:08,094 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-20 22:40:23,214 - LucIA_Learning - INFO - Iniciando ciclo de aprendizaje automático
+2025-09-20 22:40:23,214 - LucIA_Learning - INFO - No hay datos de entrenamiento disponibles

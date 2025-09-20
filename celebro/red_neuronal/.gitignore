@@ -1,0 +1,88 @@
+# Archivos de configuración privada
+config_private.py
+.env
+*.env
+
+# Archivos de modelos
+*.pkl
+*.h5
+*.pb
+*.onnx
+
+# Archivos de cache
+cache/
+*.cache
+
+# Archivos temporales
+temp/
+*.tmp
+*.temp
+
+# Logs
+logs/
+*.log
+
+# Datos sensibles
+data/private/
+data/sensitive/
+
+# Archivos de configuración local
+local_config.py
+user_config.py
+
+# Archivos de API keys
+api_keys.py
+secrets.py
+credentials.py
+
+# Archivos de backup
+*.bak
+*.backup
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Archivos de virtual environment
+venv/
+env/
+ENV/

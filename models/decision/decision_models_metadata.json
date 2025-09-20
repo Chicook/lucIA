@@ -1,0 +1,36 @@
+{
+  "models": {
+    "d023d94ddde6": {
+      "model_id": "d023d94ddde6",
+      "name": "Clasificador Simple",
+      "decision_type": "rule_based",
+      "status": "trained",
+      "created_at": "2025-09-20T22:38:54.272340",
+      "last_updated": "2025-09-20T22:38:54.275161",
+      "version": "1.0.0",
+      "description": "Clasificador basado en reglas",
+      "input_features": [
+        "x"
+      ],
+      "output_classes": [
+        "positive",
+        "negative"
+      ],
+      "rules": [
+        {
+          "rule_id": "da64ef1b",
+          "condition": "x > 0",
+          "action": "positive",
+          "confidence": 0.9,
+          "priority": 1,
+          "metadata": {}
+        }
+      ],
+      "parameters": {},
+      "performance_metrics": {},
+      "file_path": "models/decision\\d023d94ddde6.pkl",
+      "file_size": 77,
+      "checksum": "b9261f7e855b9d1b60dcae52d5e48b3a4d6617fcb7d2bbb3a9c025fc15952202"
+    }
+  }
+}

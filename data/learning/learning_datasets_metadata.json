@@ -1,0 +1,94 @@
+{
+  "datasets": {
+    "2ca16ac9e9c8": {
+      "dataset_id": "2ca16ac9e9c8",
+      "name": "Dataset de Prueba",
+      "data_type": "training",
+      "format": "pandas",
+      "created_at": "2025-09-20T22:38:54.836466",
+      "last_updated": "2025-09-20T22:38:54.843665",
+      "description": "Dataset de prueba para demostraci\u00f3n",
+      "file_path": "data/learning\\2ca16ac9e9c8.pandas",
+      "file_size": 3607,
+      "rows": 100,
+      "columns": 4,
+      "features": [
+        "feature1",
+        "feature2",
+        "feature3"
+      ],
+      "target_column": "target",
+      "metadata": {},
+      "checksum": "65d09956340af668b932c11e06da2f295e16868084ad2576531fb5443f288ac2"
+    },
+    "51d1e06df618": {
+      "dataset_id": "51d1e06df618",
+      "name": "Dataset de Prueba_train",
+      "data_type": "training",
+      "format": "pandas",
+      "created_at": "2025-09-20T22:38:54.883816",
+      "last_updated": "2025-09-20T22:38:54.883816",
+      "description": "Conjunto de entrenamiento de Dataset de Prueba",
+      "file_path": "data/learning\\51d1e06df618.pandas",
+      "file_size": 2775,
+      "rows": 70,
+      "columns": 4,
+      "features": [
+        "feature1",
+        "feature2",
+        "feature3"
+      ],
+      "target_column": "target",
+      "metadata": {
+        "split_from": "2ca16ac9e9c8"
+      },
+      "checksum": "23537e41975bf6d5cfdb2634bca2203167483b49627d9feacae8a94e3c33e6de"
+    },
+    "5a54ed0ac9de": {
+      "dataset_id": "5a54ed0ac9de",
+      "name": "Dataset de Prueba_val",
+      "data_type": "validation",
+      "format": "pandas",
+      "created_at": "2025-09-20T22:38:54.899437",
+      "last_updated": "2025-09-20T22:38:54.899437",
+      "description": "Conjunto de validaci\u00f3n de Dataset de Prueba",
+      "file_path": "data/learning\\5a54ed0ac9de.pandas",
+      "file_size": 1375,
+      "rows": 20,
+      "columns": 4,
+      "features": [
+        "feature1",
+        "feature2",
+        "feature3"
+      ],
+      "target_column": "target",
+      "metadata": {
+        "split_from": "2ca16ac9e9c8"
+      },
+      "checksum": "6168ecfc474fcab4cc090766ece90e209bcd722e654e48be6d41f6b5de536180"
+    },
+    "b65f4f41f559": {
+      "dataset_id": "b65f4f41f559",
+      "name": "Dataset de Prueba_test",
+      "data_type": "test",
+      "format": "pandas",
+      "created_at": "2025-09-20T22:38:54.926010",
+      "last_updated": "2025-09-20T22:38:54.926010",
+      "description": "Conjunto de prueba de Dataset de Prueba",
+      "file_path": "data/learning\\b65f4f41f559.pandas",
+      "file_size": 1092,
+      "rows": 10,
+      "columns": 4,
+      "features": [
+        "feature1",
+        "feature2",
+        "feature3"
+      ],
+      "target_column": "target",
+      "metadata": {
+        "split_from": "2ca16ac9e9c8"
+      },
+      "checksum": "2cb9d4d55fd00709805c4daa47af5a8b3656a9db911e526c8498d3b585b068cd"
+    }
+  }
+}

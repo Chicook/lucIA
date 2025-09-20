@@ -1,0 +1,15 @@
+{
+  "security_categories": [
+    "authentication",
+    "encryption",
+    "malware",
+    "phishing",
+    "firewall",
+    "vulnerability",
+    "compliance",
+    "incident_response"
+  ],
+  "model_type": "security_analysis",
+  "trained_at": "2025-09-20T22:49:52.806783",
+  "trained_model_path": "celebro/models\\Analizador_Seguridad_20250920_224944_trained.h5"
+}

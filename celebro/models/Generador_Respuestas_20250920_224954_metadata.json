@@ -1,0 +1,7 @@
+{
+  "model_id": "Generador_Respuestas_20250920_224954",
+  "model_name": "Generador_Respuestas",
+  "model_type": "response_generation",
+  "created_at": "2025-09-20T22:49:54.512762",
+  "file_path": "celebro/models\\Generador_Respuestas_20250920_224954.h5"
+}
