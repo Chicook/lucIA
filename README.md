@@ -481,7 +481,7 @@ python -m pytest test_lucia_system.py::TestLucIASystem::test_memory_system
 - [x] **Validación completa** de todos los sistemas integrados ✅ **RESUELTO**
 
 ### 🟡 Importantes (Próxima semana)
-- [ ] **Dashboard Web** para monitoreo visual
+- [ ] **Dashboard cliente de escritorio .exe** para monitoreo visual
 - [ ] **API REST** para integración externa
 - [ ] **Documentación API** completa
 - [ ] **Tests automatizados** para todos los módulos
