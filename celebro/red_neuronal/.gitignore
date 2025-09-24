@@ -1,5 +1,6 @@
 # Archivos de configuración privada
 config_private.py
+config_simple.py
 .env
 *.env
 
