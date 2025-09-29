@@ -27,6 +27,7 @@ import time
 # Importar sistema de resolución de errores críticos
 from solucion_de_errores.integration import integrate_error_resolution
 from redp2p_distribuida import P2PNode
+from models.neural.modules import DeepNetworkModulesBuilder, generate_pyramid_specs, generate_constant_specs
 
 # Configuración de logging
 # Crear directorio de logs si no existe
@@ -176,7 +177,7 @@ class LucIACore:
             print("\n🧪 Ejecutando tests automáticos...")
             
             # Importar y ejecutar tests
-            from auto_tests import run_auto_tests
+            from test_LC.auto_tests import run_auto_tests
             test_report = await run_auto_tests()
             
             if test_report and test_report.get('status') == 'READY':
@@ -395,6 +396,33 @@ class LucIACore:
                             print("❌ Sistema de resolución de errores no disponible")
                         continue
                     
+                    if user_input.lower().startswith('crear red profunda'):
+                        try:
+                            # Formato: crear red profunda <input> <output> [depth] [width] [mode]
+                            parts = user_input.split()
+                            # parts: ['crear','red','profunda',input,output,depth?,width?,mode?]
+                            if len(parts) < 5:
+                                print("\nUso: crear red profunda <input> <output> [depth=12] [width=1024] [mode=pyramid|constant]")
+                                continue
+                            input_size = int(parts[3])
+                            output_size = int(parts[4])
+                            depth = int(parts[5]) if len(parts) > 5 else 12
+                            width = int(parts[6]) if len(parts) > 6 else 1024
+                            mode = parts[7].lower() if len(parts) > 7 else 'pyramid'
+                            
+                            model_id, summary = await self.create_deep_modular_network(
+                                input_size=input_size,
+                                output_size=output_size,
+                                depth=depth,
+                                width=width,
+                                mode=mode
+                            )
+                            print("\n✅ Red profunda creada y registrada:", model_id)
+                            print(summary)
+                        except Exception as e:
+                            print(f"\n❌ Error creando red profunda: {e}")
+                        continue
+                    
                     if user_input.lower() == 'validar':
                         print("\n🔍 Ejecutando validación del sistema...")
                         if self.error_resolution_integration:
@@ -440,6 +468,21 @@ class LucIACore:
             
         except Exception as e:
             logger.error(f"Error en chat interactivo: {e}")
+
+    async def create_deep_modular_network(self, input_size: int, output_size: int, depth: int = 12, width: int = 1024, mode: str = 'pyramid'):
+        """Construye y registra una red profunda modular y devuelve (model_id, summary)."""
+        # Generar especificaciones
+        if mode == 'constant':
+            specs = generate_constant_specs(depth=depth, width=width, activation='relu', dropout=0.3, batch_norm=True)
+        else:
+            specs = generate_pyramid_specs(depth=depth, top_width=width, activation='relu', dropout=0.3, batch_norm=True, decay=0.7)
+        
+        builder = DeepNetworkModulesBuilder(input_size=input_size, output_size=output_size, specs=specs, output_activation='softmax')
+        net = builder.build()
+        summary = net.get_summary()
+        model_name = f"DeepModular_{mode}_{input_size}x{output_size}_d{depth}_w{width}"
+        model_id = builder.create_and_register(name=model_name, description="Generada desde chat interactivo")
+        return model_id, summary
     
     async def _connect_to_gemini(self):
         """Conecta con Gemini API después de la primera pregunta"""
