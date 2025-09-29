@@ -18,6 +18,24 @@ import hashlib
 
 logger = logging.getLogger('Neural_Models')
 
+# Importaciones para construir redes neuronales profundas
+try:
+    from celebro.red_neuronal.neural_network import NeuralNetwork, NetworkConfig
+    from celebro.red_neuronal.layers import DenseLayer, DropoutLayer, BatchNormLayer
+    # Opcional: nuevas neuronas
+    try:
+        from celebro.red_neuronal.neurons import NeuronLayer
+    except Exception:
+        NeuronLayer = None  # Fallback si no existe
+except Exception as _import_exc:
+    NeuralNetwork = None
+    NetworkConfig = None
+    DenseLayer = None
+    DropoutLayer = None
+    BatchNormLayer = None
+    NeuronLayer = None
+    logger.warning(f"No se pudieron importar componentes de red neuronal: {_import_exc}")
+
 class ModelType(Enum):
     """Tipos de modelos neuronales"""
     CLASSIFICATION = "classification"
@@ -415,3 +433,230 @@ class NeuralModelManager:
 
 # Instancia global del gestor de modelos neuronales
 neural_model_manager = NeuralModelManager()
+
+
+# ===== FÁBRICAS DE MODELOS PROFUNDOS =====
+def build_deep_dense_network(
+    input_size: int,
+    output_size: int,
+    hidden_layers: List[int] = None,
+    activation: str = 'relu',
+    output_activation: str = 'softmax',
+    dropout_rate: float = 0.2,
+    use_batch_norm: bool = True,
+    optimizer: str = 'adam',
+    loss: str = 'categorical_crossentropy'
+):
+    """
+    Construye una red profunda tipo MLP con múltiples capas densas, similar
+    a la arquitectura de la imagen (varias capas ocultas totalmente conectadas).
+    """
+    if NeuralNetwork is None or NetworkConfig is None:
+        raise RuntimeError("Componentes de red neuronal no disponibles")
+
+    hidden_layers = hidden_layers or [512, 512, 256, 256, 128]
+
+    config = NetworkConfig(
+        input_size=input_size,
+        hidden_layers=hidden_layers,
+        output_size=output_size,
+        activation=activation,
+        output_activation=output_activation,
+        learning_rate=0.001,
+        batch_size=64,
+        epochs=50,
+        validation_split=0.15,
+        early_stopping=True,
+        patience=8,
+        regularization='l2',
+        regularization_rate=0.0005,
+        dropout_rate=dropout_rate,
+        batch_normalization=use_batch_norm,
+        optimizer=optimizer,
+        loss_function=loss
+    )
+
+    net = NeuralNetwork(config)
+
+    # Capa de entrada -> primera oculta
+    first_units = hidden_layers[0]
+    net.add_layer(DenseLayer(first_units, activation=activation))
+    if use_batch_norm:
+        net.add_layer(BatchNormLayer())
+    if dropout_rate and dropout_rate > 0:
+        net.add_layer(DropoutLayer(dropout_rate))
+
+    # Capas ocultas adicionales
+    for units in hidden_layers[1:]:
+        net.add_layer(DenseLayer(units, activation=activation))
+        if use_batch_norm:
+            net.add_layer(BatchNormLayer())
+        if dropout_rate and dropout_rate > 0:
+            net.add_layer(DropoutLayer(dropout_rate))
+
+    # Capa de salida
+    out_activation = output_activation if output_activation else 'linear'
+    net.add_layer(DenseLayer(output_size, activation=out_activation))
+
+    # Construir y compilar
+    net.build()
+    net.compile(optimizer=optimizer, loss=loss, metrics=['accuracy'])
+    return net
+
+
+def build_neuron_layer_network(
+    input_size: int,
+    output_size: int,
+    hidden_layers: List[int] = None,
+    activation: str = 'relu',
+    output_activation: str = 'softmax',
+):
+    """
+    Variante que utiliza `NeuronLayer` si está disponible, para exponer semántica
+    de neuronas. Fallback a DenseLayer si no está disponible.
+    """
+    if NeuralNetwork is None or NetworkConfig is None:
+        raise RuntimeError("Componentes de red neuronal no disponibles")
+
+    hidden_layers = hidden_layers or [256, 256, 128, 128]
+    config = NetworkConfig(
+        input_size=input_size,
+        hidden_layers=hidden_layers,
+        output_size=output_size,
+        activation=activation,
+        output_activation=output_activation,
+        learning_rate=0.001
+    )
+    net = NeuralNetwork(config)
+
+    LayerClass = NeuronLayer if NeuronLayer is not None else DenseLayer
+    for units in hidden_layers:
+        net.add_layer(LayerClass(units, activation=activation))
+    net.add_layer(LayerClass(output_size, activation=output_activation))
+
+    net.build().compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+    return net
+
+
+def create_and_register_deep_model(
+    name: str,
+    input_size: int,
+    output_size: int,
+    hidden_layers: List[int] = None,
+    save: bool = True,
+    description: str = "Deep MLP auto-generado"
+) -> str:
+    """Crea un modelo profundo y lo registra en el gestor, devolviendo su ID."""
+    model = build_deep_dense_network(
+        input_size=input_size,
+        output_size=output_size,
+        hidden_layers=hidden_layers or [512, 512, 256, 256, 128]
+    )
+
+    if save:
+        model_id = neural_model_manager.save_model(
+            model=model,
+            name=name,
+            model_type=ModelType.CLASSIFICATION,
+            description=description,
+            version="1.0.0",
+            input_shape=(input_size,),
+            output_shape=(output_size,),
+            parameters={
+                'hidden_layers': hidden_layers or [512, 512, 256, 256, 128],
+                'activation': model.config.activation,
+                'output_activation': model.config.output_activation
+            },
+            performance_metrics={}
+        )
+        return model_id
+    return ""
+
+
+# ===== UTILIDADES Y PRESETS AÚN MÁS PROFUNDOS =====
+def generate_constant_layers(depth: int, width: int) -> List[int]:
+    """Genera una lista de 'depth' capas ocultas con 'width' neuronas cada una."""
+    return [int(width) for _ in range(max(1, depth))]
+
+
+def generate_pyramid_layers(depth: int, top_width: int, decay: float = 0.5) -> List[int]:
+    """Genera capas en pirámide: anchas al inicio y decreciendo por 'decay'."""
+    layers = []
+    current = float(top_width)
+    for _ in range(max(1, depth)):
+        layers.append(max(8, int(round(current))))
+        current *= max(0.1, min(decay, 0.95))
+    return layers
+
+
+def build_very_deep_dense_network(
+    input_size: int,
+    output_size: int,
+    depth: int = 10,
+    width: int = 1024,
+    mode: str = 'constant',  # 'constant' | 'pyramid'
+    activation: str = 'relu',
+    output_activation: str = 'softmax',
+    dropout_rate: float = 0.3,
+    use_batch_norm: bool = True,
+    optimizer: str = 'adam',
+    loss: str = 'categorical_crossentropy'
+):
+    """
+    Construye una red MUY profunda (10+ capas) para parecerse a la imagen
+    con muchas neuronas y múltiples capas totalmente conectadas.
+    """
+    if mode == 'pyramid':
+        hidden_layers = generate_pyramid_layers(depth=depth, top_width=width, decay=0.7)
+    else:
+        hidden_layers = generate_constant_layers(depth=depth, width=width)
+
+    return build_deep_dense_network(
+        input_size=input_size,
+        output_size=output_size,
+        hidden_layers=hidden_layers,
+        activation=activation,
+        output_activation=output_activation,
+        dropout_rate=dropout_rate,
+        use_batch_norm=use_batch_norm,
+        optimizer=optimizer,
+        loss=loss
+    )
+
+
+def create_and_register_very_deep_model(
+    name: str,
+    input_size: int,
+    output_size: int,
+    depth: int = 12,
+    width: int = 1024,
+    mode: str = 'constant',
+    description: str = "Very Deep MLP (parecido a imagen)"
+) -> str:
+    """Crea y registra un modelo muy profundo (12 capas x 1024 neuronas por defecto)."""
+    model = build_very_deep_dense_network(
+        input_size=input_size,
+        output_size=output_size,
+        depth=depth,
+        width=width,
+        mode=mode
+    )
+
+    model_id = neural_model_manager.save_model(
+        model=model,
+        name=name,
+        model_type=ModelType.CLASSIFICATION,
+        description=description,
+        version="1.0.0",
+        input_shape=(input_size,),
+        output_shape=(output_size,),
+        parameters={
+            'depth': depth,
+            'width': width,
+            'mode': mode,
+            'activation': model.config.activation,
+            'output_activation': model.config.output_activation
+        },
+        performance_metrics={}
+    )
+    return model_id

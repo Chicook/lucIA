@@ -10,6 +10,7 @@ from .activations import ActivationFunction, ReLU, Sigmoid, Tanh, Softmax, Leaky
 from .optimizers import Optimizer, SGD, Adam, RMSprop, Adagrad, AdamW
 from .loss_functions import LossFunction, MSE, CrossEntropy, BinaryCrossEntropy, Huber
 from .neural_core import NeuralCore
+from .neurons import NeuronLayer, SpikingLIFLayer
 from .training import Trainer
 from .gemini_integration import GeminiIntegration, analyze_network, suggest_architecture, explain_results
 
@@ -23,5 +24,6 @@ __all__ = [
     "Optimizer", "SGD", "Adam", "RMSprop", "Adagrad", "AdamW",
     "LossFunction", "MSE", "CrossEntropy", "BinaryCrossEntropy", "Huber",
     "NeuralCore", "Trainer",
+    "NeuronLayer", "SpikingLIFLayer",
     "GeminiIntegration", "analyze_network", "suggest_architecture", "explain_results"
 ]

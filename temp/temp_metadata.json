@@ -1,0 +1,8 @@
+{
+  "files": {},
+  "config": {
+    "max_age": 3600,
+    "max_size": 1073741824,
+    "cleanup_interval": 300
+  }
+}
