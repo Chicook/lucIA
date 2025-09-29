@@ -1828,3 +1828,130 @@
 2025-09-29 14:27:23,264 - Temp_Manager - INFO - Limpieza de expirados: 0 archivos eliminados
 2025-09-29 14:27:23,321 - Temp_Manager - INFO - Limpieza de expirados: 0 archivos eliminados
 2025-09-29 14:29:15,164 - ErrorResolutionSystem - ERROR - Error en procesamiento mejorado: asyncio.run() cannot be called from a running event loop
+2025-09-29 14:39:24,867 - LucIA_Core - INFO - Configuración cargada desde config/ai_config.json
+2025-09-29 14:39:24,872 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-29 14:39:24,872 - Celebro_TensorFlow - INFO - No se detectó GPU, usando CPU
+2025-09-29 14:39:24,872 - Celebro_TensorFlow - INFO - Integración de TensorFlow con @celebro inicializada
+2025-09-29 14:39:24,872 - Deep_Security_Training - INFO - Entrenador profundo de seguridad inicializado
+2025-09-29 14:39:33,130 - LucIA_Core - INFO - LucIA Core inicializado correctamente
+2025-09-29 14:39:33,130 - LucIA_Core - INFO - Iniciando motor de IA LucIA...
+2025-09-29 14:39:33,130 - LucIA_Core - INFO - Inicializando módulos de IA...
+2025-09-29 14:39:33,130 - LucIA_Memory - INFO - Base de datos de memoria inicializada
+2025-09-29 14:39:33,130 - LucIA_Memory - INFO - Sistema de memoria inicializado
+2025-09-29 14:39:33,130 - LucIA_Memory - INFO - Módulo de memoria inicializado
+2025-09-29 14:39:33,145 - LucIA_Core - INFO - Módulo memory inicializado correctamente
+2025-09-29 14:39:33,330 - LucIA_Learning - INFO - Motor de aprendizaje inicializado
+2025-09-29 14:39:33,330 - LucIA_Learning - INFO - Módulo de aprendizaje inicializado
+2025-09-29 14:39:33,330 - LucIA_Core - INFO - Módulo learning inicializado correctamente
+2025-09-29 14:39:33,346 - LucIA_Communication - INFO - Hub de comunicación inicializado con ID: 200dc2fd...
+2025-09-29 14:39:33,346 - LucIA_Communication - INFO - Módulo de comunicación inicializado
+2025-09-29 14:39:33,346 - LucIA_Core - INFO - Módulo communication inicializado correctamente
+2025-09-29 14:39:33,346 - LucIA_Training - INFO - Interfaz de entrenamiento inicializada
+2025-09-29 14:39:33,346 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-29 14:39:33,346 - LucIA_Training - INFO - Módulo de entrenamiento inicializado
+2025-09-29 14:39:33,346 - LucIA_Core - INFO - Módulo training inicializado correctamente
+2025-09-29 14:39:33,353 - LucIA_Reasoning - INFO - Motor de razonamiento inicializado
+2025-09-29 14:39:33,353 - LucIA_Reasoning - INFO - Módulo de razonamiento inicializado
+2025-09-29 14:39:33,353 - LucIA_Core - INFO - Módulo reasoning inicializado correctamente
+2025-09-29 14:39:33,357 - LucIA_Perception - INFO - Sistema de percepción inicializado
+2025-09-29 14:39:33,357 - LucIA_Perception - INFO - Módulo de percepción inicializado
+2025-09-29 14:39:33,357 - LucIA_Core - INFO - Módulo perception inicializado correctamente
+2025-09-29 14:39:33,361 - LucIA_Action - INFO - Sistema de acciones inicializado
+2025-09-29 14:39:33,361 - LucIA_Action - INFO - Módulo de acciones inicializado
+2025-09-29 14:39:33,362 - LucIA_Core - INFO - Módulo action inicializado correctamente
+2025-09-29 14:39:33,366 - LucIA_Evaluation - INFO - Sistema de evaluación inicializado
+2025-09-29 14:39:33,367 - LucIA_Evaluation - INFO - Módulo de evaluación inicializado
+2025-09-29 14:39:33,368 - LucIA_Core - INFO - Módulo evaluation inicializado correctamente
+2025-09-29 14:39:33,372 - LucIA_Optimization - INFO - Sistema de optimización inicializado
+2025-09-29 14:39:33,372 - LucIA_Optimization - INFO - Módulo de optimización inicializado
+2025-09-29 14:39:33,372 - LucIA_Core - INFO - Módulo optimization inicializado correctamente
+2025-09-29 14:39:33,391 - LucIA_Security - INFO - Sistema de seguridad inicializado
+2025-09-29 14:39:33,391 - LucIA_Security - INFO - Módulo de seguridad inicializado
+2025-09-29 14:39:33,391 - LucIA_Core - INFO - Módulo security inicializado correctamente
+2025-09-29 14:39:33,397 - LucIA_Monitoring - INFO - Sistema de monitoreo inicializado
+2025-09-29 14:39:33,398 - LucIA_Monitoring - INFO - Monitoreo iniciado con intervalo de 30 segundos
+2025-09-29 14:39:33,398 - LucIA_Monitoring - INFO - Módulo de monitoreo inicializado
+2025-09-29 14:39:33,399 - LucIA_Core - INFO - Módulo monitoring inicializado correctamente
+2025-09-29 14:39:33,403 - LucIA_Integration - INFO - Sistema de integración inicializado
+2025-09-29 14:39:33,403 - LucIA_Integration - INFO - Módulo de integración inicializado
+2025-09-29 14:39:33,403 - LucIA_Core - INFO - Módulo integration inicializado correctamente
+2025-09-29 14:39:33,407 - Modulo13_Integracion - INFO - Sistema de Integración inicializado
+2025-09-29 14:39:33,407 - Celebro_Analyzer - INFO - Analizador de respuestas inicializado
+2025-09-29 14:39:33,408 - Celebro_Context - INFO - Procesador de contexto inicializado
+2025-09-29 14:39:33,408 - Celebro_Generator - INFO - Generador de respuestas inicializado
+2025-09-29 14:39:33,408 - Celebro_Synthesizer - INFO - Sintetizador de conocimiento inicializado
+2025-09-29 14:39:33,408 - Celebro_TensorFlow - INFO - No se detectó GPU, usando CPU
+2025-09-29 14:39:33,411 - Celebro_TensorFlow - INFO - Integración de TensorFlow con @celebro inicializada
+2025-09-29 14:39:33,411 - Celebro_Core - INFO - @celebro Core inicializado
+2025-09-29 14:39:33,413 - Celebro_Core - INFO - @celebro inicializado correctamente
+2025-09-29 14:39:33,414 - Modulo13_Integracion - INFO - Sistema @celebro integrado correctamente
+2025-09-29 14:39:33,415 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-29 14:39:33,415 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-29 14:39:33,416 - Neural_QueryAnalyzer - INFO - Analizador profundo de consultas inicializado
+2025-09-29 14:39:33,416 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-29 14:39:33,417 - Neural_DeepLearning - INFO - Motor de aprendizaje profundo inicializado
+2025-09-29 14:39:33,417 - Neural_Core - INFO - Núcleo de red neuronal inicializado
+2025-09-29 14:39:33,417 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-29 14:39:33,418 - Modulo13_Integracion - INFO - Sistema @red_neuronal integrado correctamente
+2025-09-29 14:39:33,428 - Modulo13_Integracion - ERROR - Error inicializando @conocimientos: unterminated triple-quoted string literal (detected at line 419) (prompt_generator.py, line 400)
+2025-09-29 14:39:33,428 - Modulo13_Integracion - INFO - Módulo 13 - Integración de Sistemas Avanzados inicializado correctamente
+2025-09-29 14:39:33,429 - LucIA_Core - INFO - Módulo advanced_integration inicializado correctamente
+2025-09-29 14:39:33,446 - Intelligent_Cache - INFO - Cargados 0 elementos del caché persistente
+2025-09-29 14:39:33,447 - Intelligent_Cache - INFO - Métricas del caché restauradas
+2025-09-29 14:39:33,448 - Intelligent_Cache - INFO - Sistema de caché inteligente inicializado - Max: 100MB, Items: 1000, Estrategia: adaptive
+2025-09-29 14:39:33,449 - LucIA_Core - ERROR - Error inicializando módulo infrastructure: cannot import name 'CacheStats' from 'cache.intelligent_cache' (c:\Users\Usuario\Desktop\lucIA\cache\intelligent_cache.py)
+2025-09-29 14:39:33,449 - LucIA_Core - INFO - Total de módulos inicializados: 13
+2025-09-29 14:39:33,450 - LucIA_Core - WARNING - Error ejecutando tests automáticos: No module named 'auto_tests'
+2025-09-29 14:39:33,451 - TensorFlowOptimizer - INFO - Precisión mixta habilitada
+2025-09-29 14:39:33,451 - TensorFlowOptimizer - INFO - Compilación XLA habilitada
+2025-09-29 14:39:33,452 - TensorFlowOptimizer - INFO - Optimizaciones de TensorFlow configuradas
+2025-09-29 14:39:33,452 - ErrorResolutionIntegration - INFO - Inicializando integración de resolución de errores...
+2025-09-29 14:39:33,453 - ErrorResolutionSystem - INFO - Inicializando sistema de resolución de errores...
+2025-09-29 14:39:33,453 - ErrorMonitor - INFO - Monitor de errores iniciado
+2025-09-29 14:39:33,453 - ErrorResolutionSystem - INFO - Sistema de resolución de errores inicializado
+2025-09-29 14:39:33,456 - ErrorResolutionIntegration - INFO - Aplicando correcciones automáticas...
+2025-09-29 14:39:33,457 - ErrorResolutionSystem - INFO - Iniciando corrección de errores críticos...
+2025-09-29 14:39:33,457 - ErrorResolutionSystem - INFO - Aplicadas 0 correcciones de sincronización asíncrona
+2025-09-29 14:39:33,457 - ErrorResolutionSystem - INFO - Aplicadas 0 optimizaciones de TensorFlow
+2025-09-29 14:39:33,458 - ErrorResolutionSystem - INFO - Aplicadas 2 mejoras de predicciones
+2025-09-29 14:39:33,458 - SystemValidator - INFO - Iniciando validación completa de sistemas...
+2025-09-29 14:39:33,463 - SystemValidator - INFO - Validación completada en 0.00 segundos
+2025-09-29 14:39:33,463 - ErrorResolutionSystem - INFO - Validación de sistemas completada
+2025-09-29 14:39:33,481 - Temp_Manager - INFO - Cargados 0 archivos temporales
+2025-09-29 14:39:33,482 - Temp_Manager - INFO - Sistema de gestión de archivos temporales inicializado
+2025-09-29 14:39:33,489 - Learning_Data_Manager - INFO - Cargados 4 datasets de aprendizaje
+2025-09-29 14:39:33,489 - Learning_Data_Manager - INFO - Sistema de gestión de datos de aprendizaje inicializado
+2025-09-29 14:39:33,491 - Intelligent_Cache - INFO - Cargados 0 elementos del caché persistente
+2025-09-29 14:39:33,491 - Intelligent_Cache - INFO - Métricas del caché restauradas
+2025-09-29 14:39:33,494 - Intelligent_Cache - INFO - Sistema de caché inteligente inicializado - Max: 100MB, Items: 1000, Estrategia: adaptive
+2025-09-29 14:39:33,496 - Temp_Manager - INFO - Cargados 0 archivos temporales
+2025-09-29 14:39:33,497 - Temp_Manager - INFO - Sistema de gestión de archivos temporales inicializado
+2025-09-29 14:39:33,498 - Neural_Models - INFO - Cargados 1 modelos neuronales
+2025-09-29 14:39:33,498 - Neural_Models - INFO - Sistema de modelos neuronales inicializado
+2025-09-29 14:39:33,499 - Decision_Models - INFO - Cargados 1 modelos de decisión
+2025-09-29 14:39:33,499 - Decision_Models - INFO - Sistema de modelos de decisión inicializado
+2025-09-29 14:39:33,500 - Optimization_Models - INFO - Cargados 1 modelos de optimización
+2025-09-29 14:39:33,500 - Optimization_Models - INFO - Sistema de modelos de optimización inicializado
+2025-09-29 14:39:33,504 - Learning_Data_Manager - INFO - Cargados 4 datasets de aprendizaje
+2025-09-29 14:39:33,505 - Learning_Data_Manager - INFO - Sistema de gestión de datos de aprendizaje inicializado
+2025-09-29 14:39:33,506 - Modulo14_Infraestructura - INFO - Integrador de infraestructura inicializado
+2025-09-29 14:39:33,506 - Modulo14_Infraestructura - INFO - Datos persistentes cargados
+2025-09-29 14:39:33,506 - Modulo14_Infraestructura - INFO - Módulo 14 - Sistema Integrador de Infraestructura inicializado correctamente
+2025-09-29 14:39:33,506 - ErrorResolutionSystem - INFO - Módulo infrastructure recargado exitosamente
+2025-09-29 14:39:33,507 - ErrorResolutionSystem - INFO - Aplicadas 1 correcciones basadas en validación
+2025-09-29 14:39:33,507 - ErrorResolutionSystem - INFO - Corrección de errores completada: 1 correcciones aplicadas
+2025-09-29 14:39:33,507 - ErrorResolutionIntegration - INFO - Correcciones automáticas aplicadas: 1 correcciones
+2025-09-29 14:39:33,507 - ErrorResolutionIntegration - INFO - Ejecutando validación automática...
+2025-09-29 14:39:33,508 - SystemValidator - INFO - Iniciando validación completa de sistemas...
+2025-09-29 14:39:33,512 - SystemValidator - INFO - Validación completada en 0.00 segundos
+2025-09-29 14:39:33,513 - ErrorResolutionIntegration - INFO - Validación completada con advertencias
+2025-09-29 14:39:33,513 - ErrorResolutionIntegration - INFO - Integración de resolución de errores inicializada correctamente
+2025-09-29 14:39:33,514 - LucIA_Core - INFO - Sistema de resolución de errores críticos inicializado correctamente
+2025-09-29 14:39:33,514 - redp2p - INFO - Starting P2P node 4ed06ac1
+2025-09-29 14:39:33,516 - LucIA_Core - INFO - Red P2P distribuida iniciada
+2025-09-29 14:39:33,517 - LucIA_Core - INFO - Motor de IA LucIA iniciado correctamente
+2025-09-29 14:39:33,522 - Neural_Gemini - INFO - Integración con Gemini API inicializada
+2025-09-29 14:39:34,416 - LucIA_Monitoring - WARNING - Alerta generada: disk_usage excedió el umbral: 91.84 >= 90.00
+2025-09-29 14:41:01,611 - ErrorResolutionSystem - ERROR - Error en procesamiento mejorado: asyncio.run() cannot be called from a running event loop
+2025-09-29 14:41:16,345 - ErrorResolutionSystem - ERROR - Error en procesamiento mejorado: asyncio.run() cannot be called from a running event loop
+2025-09-29 14:43:12,251 - LucIA_Monitoring - WARNING - Alerta generada: cpu_usage excedió el umbral: 100.00 >= 80.00

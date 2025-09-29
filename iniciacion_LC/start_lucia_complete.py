@@ -56,7 +56,7 @@ async def run_tests():
     print("=" * 80)
     
     try:
-        from auto_tests import run_auto_tests
+        from test_LC.auto_tests import run_auto_tests
         report = await run_auto_tests()
         
         if report:
