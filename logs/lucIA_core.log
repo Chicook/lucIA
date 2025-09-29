@@ -1955,3 +1955,5 @@
 2025-09-29 14:41:01,611 - ErrorResolutionSystem - ERROR - Error en procesamiento mejorado: asyncio.run() cannot be called from a running event loop
 2025-09-29 14:41:16,345 - ErrorResolutionSystem - ERROR - Error en procesamiento mejorado: asyncio.run() cannot be called from a running event loop
 2025-09-29 14:43:12,251 - LucIA_Monitoring - WARNING - Alerta generada: cpu_usage excedió el umbral: 100.00 >= 80.00
+2025-09-29 14:44:16,364 - LucIA_Learning - INFO - Iniciando ciclo de aprendizaje automático
+2025-09-29 14:44:16,364 - LucIA_Learning - INFO - No hay datos de entrenamiento disponibles
