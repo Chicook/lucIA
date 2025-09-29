@@ -26,6 +26,7 @@ import time
 
 # Importar sistema de resolución de errores críticos
 from solucion_de_errores.integration import integrate_error_resolution
+from redp2p_distribuida import P2PNode
 
 # Configuración de logging
 # Crear directorio de logs si no existe
@@ -63,6 +64,7 @@ class LucIACore:
         self.gemini_integration = None
         self.security_trainer = DeepSecurityTrainer()
         self.error_resolution_integration = None
+        self.p2p_node = None
         
         # Inicializar directorios necesarios
         self._setup_directories()
@@ -258,6 +260,13 @@ class LucIACore:
         try:
             # Inicializar módulos
             await self.initialize_modules()
+            # Iniciar red P2P distribuida
+            try:
+                self.p2p_node = P2PNode()
+                self.p2p_node.start()
+                logger.info("Red P2P distribuida iniciada")
+            except Exception as e:
+                logger.warning(f"No se pudo iniciar la red P2P: {e}")
             
             # Iniciar procesos de aprendizaje continuo
             if self.config["training"]["auto_learning"]:
@@ -879,6 +888,14 @@ class LucIACore:
         except Exception as e:
             logger.error(f"Error guardando configuración: {e}")
         
+        # Apagar red P2P
+        try:
+            if self.p2p_node:
+                self.p2p_node.stop()
+                logger.info("Red P2P distribuida apagada")
+        except Exception as e:
+            logger.error(f"Error apagando red P2P: {e}")
+
         logger.info("Motor de IA apagado correctamente")
 
 async def main():
